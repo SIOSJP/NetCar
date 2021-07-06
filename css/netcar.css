@@ -1,0 +1,118 @@
+body {
+    background: url('../images/netcar_fondJaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color:#181818;   /* gris très foncé, quasiment noir */
+
+}
+
+#blocPage
+{   display: flex;
+	flex-direction : column ;
+    margin-left: 3%;
+	margin-right: 3%;
+	margin-top : 2%;
+	margin-bottom : 2%;
+}
+
+header  
+{   background: url('../images/netcar_separateur.png') repeat-x bottom;  /*image qui se répète horizontalement, aligné en bas */
+	display: flex;
+	flex-direction : row ;
+    justify-content: space-between; /* espace réparti équitablement entre les éléments (pas sur les côtés) */
+
+}
+
+section
+{	margin-top : 2%;
+    display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+#entete{
+	display : flex;
+	align-items : center;
+    flex: 3
+}
+
+
+#version{
+	display : flex;
+	flex-direction : row ;
+	align-items : center;
+	flex : 1
+}
+
+#logo{
+	display: flex; /* conteneur qui s'adapte au contenu */
+    flex-direction: column; /* éléments disposés les uns à la suite des autres HORIZONTALEMENT (row) */
+	justify-content: space-between;
+	width : 73%;
+}
+
+
+
+.titre{
+	color : grey;
+	font-weight :bold;
+}
+
+
+
+#leMenu
+{	margin-top : 50px;
+    display: flex;
+	flex-direction: column;
+	justify-content: start;
+	flex : 1;
+
+}
+
+#contenu    
+{
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex : 3;
+}
+
+
+#leMenu ul   
+{
+    list-style-type: none;
+}
+
+#leMenu li   
+{
+    margin-top : 10%;
+}
+
+
+
+#leMenu a
+{   
+	text-decoration: none;
+	font-weight : bold;
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+}
+
+#leMenu a:hover
+{
+    color: #3A9725;
+    border-bottom: 3px solid #3A9725;
+}
+
+footer{
+	margin-top : 4%;
+	
+}
+
+
+
+
+
+
+
+
